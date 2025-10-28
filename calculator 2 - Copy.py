@@ -1,0 +1,31 @@
+# calculator final sample
+a = int(input("enter first number: "))
+b = input("enter the operator: ")
+c = int(input("enter second number: "))
+print(a)
+print(b)
+print(c)
+if b == "+":
+    sum = int(a+c)
+    print(sum)
+if b == "*":
+    product = int(a*c)
+    print(product)
+if b == "/":
+    division = int(a/c)
+    print(division)
+if b == "//":
+    floordivision = int(a//c)
+    print(floordivision)
+if b == "%":
+    modulus = int(a % c)
+    print(modulus)
+if b == "**":
+    exponential = int(a**c)
+    print(exponential)
+if b == "-":
+    difference = int(a-c)
+    print(difference)
+if b == " ":
+    print("doesn't exist")
+# till here it works
