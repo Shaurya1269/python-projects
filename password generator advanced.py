@@ -1,4 +1,4 @@
-# more advanced one and maybe more irritating too
+# prototype one
 import random
 import string
 length = int(input("ENTER THE PASSWORD LENGTH: "))
@@ -28,7 +28,7 @@ print(password)
 
 
 
-#rthis is an actual working model unlike mine from chatgpt
+#prototype 2
 import random
 import string
 
@@ -64,4 +64,5 @@ random.shuffle(password_list)
 # Join into final string
 password = ''.join(password_list)
 print(password)
+
 
